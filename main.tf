@@ -18,7 +18,7 @@ curl -OL https://github.com/PowerShell/PowerShell/releases/download/v7.1.3/power
 tar -zxf powershell-7.1.3-linux-x64.tar.gz
 
 # Set execute permissions
-chmod +x pwsh
+#chmod +x pwsh
 
 # Do some command with ./pwsh
 ./pwsh -Command Get-Date -Uformat "%Y-%m-%d"
