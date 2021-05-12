@@ -1,7 +1,7 @@
 
 data "external" "powershell_execution" {
   program = [
-    "./ps-linux-x64/pwsh",
+    "ps-linux-x64/pwsh",
     "-Command",
     "Get-Date",
     "-Uformat",
